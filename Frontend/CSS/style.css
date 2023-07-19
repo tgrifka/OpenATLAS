@@ -1,0 +1,27 @@
+:root {
+    color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #333; color: white;
+    }
+
+    canvas {
+        border-style: solid;
+        color: white;
+        border-width: 2px;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: #ddd; color: black;
+    }
+    canvas {
+        border-style: solid;
+        color: black;
+        border-width: 2px;
+    }
+}
+
+
