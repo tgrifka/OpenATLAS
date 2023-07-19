@@ -4,7 +4,7 @@ const draw = () =>{
     ctx.clearRect(0,0,400,300);
     ctx.beginPath();
     ctx.arc(200, 150, 40, 0, 2 * Math.PI);
-    ctx.stroke();
+    //ctx.stroke();
     ctx.font = "50px Ariel";
     ctx.textAlign = "center";
 
